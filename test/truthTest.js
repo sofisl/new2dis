@@ -1,5 +1,5 @@
 const {truth} = require('../truth.js');
-import {describe, it} from 'mocha';
+const {describe, it} = require('mocha');
 
 describe('truth', () => {
     it('should return true', () => {
