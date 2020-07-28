@@ -1,7 +1,7 @@
 name: print something
 # This workflow is triggered on pushes to the repository.
 on: 
-  check_suite:
+  check_run:
     types: [completed]
   
 jobs:
