@@ -1,0 +1,19 @@
+{
+  "name": "testing",
+  "description": "opens issues warning about releases that failed to complete",
+  "private": true,
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "devDependencies": {
+    "c8": "^7.1.0"
+  },
+  "engines": {
+    "node": ">= 10.13.0"
+  }
+}
