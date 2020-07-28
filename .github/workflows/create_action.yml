@@ -1,0 +1,10 @@
+name: Run a test
+# This workflow is triggered on pushes to the repository.
+on: [check_run, check_suite]:
+  types: [completed]
+  
+jobs:
+  my_first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - echo 'this ran when the other one ran'
