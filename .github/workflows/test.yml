@@ -3,7 +3,7 @@ name: Run a test
 on: pull_request
 
 jobs:
-  build:
+  my_first_job:
     runs-on: ubuntu-latest
     steps:
       - run: npm i
