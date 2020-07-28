@@ -8,10 +8,10 @@
     "probot-app"
   ],
   "scripts": {
-    "test": "mocha test/*.js"
+    "test": "npm i && mocha test/*.js"
   },
   "devDependencies": {
-    "c8": "^7.1.0"
+    "mocha": "^8.0.0"
   },
   "engines": {
     "node": ">= 10.13.0"
