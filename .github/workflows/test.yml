@@ -1,0 +1,10 @@
+name: Run a test
+# This workflow is triggered on pushes to the repository.
+on: pull_request
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: npm ci
+      
