@@ -1,4 +1,4 @@
-name: print something
+name: conditional run
 # This workflow is triggered on pushes to the repository.
 on: 
   check_run:
