@@ -12,7 +12,7 @@ jobs:
         uses: sofisl/checkRunAction@v8
         with:
           conclusion: ${{ github.event.check_run.conclusion }}
-          pull_request: ${{ github.event.pull_requests[0].head.sha }}
+          pull_request_head_sha: ${{ github.event.pull_requests[0].head.sha }}
           author: ${{ github.actor }}
           myToken: ${{ github.token }}
    
