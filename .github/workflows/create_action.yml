@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: conditionalRun
-        uses: sofisl/checkRunAction@v8
+        uses: sofisl/checkRunAction@v9
         with:
           conclusion: ${{ github.event.check_run.conclusion }}
           pull_request_head_sha: ${{ github.event.pull_requests[0].head.sha }}
